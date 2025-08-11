@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.titulo-1 {
+    display: flex; /* ativa flexbox */
+
+    justify-content: center; /* alinhamento horizontal */
+    align-items: center; /* alinhamento vertical */
+    gap: 20px; /* espaço entre itens */
+    height: 80vh; /* altura para visualizar alinhamento */
+    background-color: black;
+}
+
+.conteudo {
+    display: flex; /* ativa flexbox */
+    flex-direction: row
+; /* direção principal */
+    justify-content: center; /* alinhamento horizontal */
+    align-items: center; /* alinhamento vertical */
+    gap: 20px; /* espaço entre itens */
+    height: 80vh; /* altura para visualizar alinhamento */
+    background-color: white;
+}
+
+.item {
+    background-color: tomato;
+    color: white;
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    display: flex; /* centraliza o texto */
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#letra {
+    display: flex;
+}
